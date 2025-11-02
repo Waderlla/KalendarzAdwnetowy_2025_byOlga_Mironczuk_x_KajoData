@@ -1,13 +1,11 @@
 # 🎄 Kalendarz Adwentowy 2025
 
-Grudzień to dla mnie wyjątkowy czas.  
-Już początkiem miesiąca nasze mieszkanie zaczyna pachnieć pomarańczą i świerkiem. Wystrój zmienia się w czerwono-zielony, a w oknach połyskują ciepłe światełka.  
-Uwielbiam budować świąteczny klimat — nie tylko we własnym domu.  
+Grudzień to dla mnie wyjątkowy czas. Już początkiem miesiąca nasze mieszkanie zaczyna pachnieć pomarańczą i świerkiem. Wystrój zmienia się w czerwono-zielony, a w oknach połyskują ciepłe światełka. Uwielbiam budować świąteczny klimat nie tylko we własnym domu.  
 Z tej miłości do świąt powstał **Kalendarz Adwentowy 2025**, stworzony po to, by każdego dnia przypomnieć nam o drobnych, prostych rzeczach, które naprawdę budują atmosferę Bożego Narodzenia.  
 
 > 🕯️ **Uwaga:** kalendarz zaczyna działać **1 grudnia** — wcześniej okienka są celowo nieaktywne.
 
-Nie znajdziesz tu wykresów ani tabel — zamiast tego czeka na Ciebie **24 świąteczne okienka z zadaniami**, które pomogą Ci wejść w grudniowy nastrój. 🎅  
+Nie znajdziesz tu wykresów ani tabel. Zamiast tego czekają na Ciebie **24 świąteczne okienka z zadaniami**, które pomogą Ci wejść w grudniowy nastrój. 🎅  
 
 ---
 
@@ -16,10 +14,9 @@ Nie znajdziesz tu wykresów ani tabel — zamiast tego czeka na Ciebie **24 świ
 - 24 pocztówki/okienka ze świątecznymi zadaniami do wykonania.  
 - Na każde zadanie masz **3 dni** (np. zadanie z 1 grudnia możesz wykonać najpóźniej 3 grudnia; **4 grudnia** okienko zostanie zablokowane).  
 - Tym samym wykonanie ostatniego zadania zablokuje się **27 grudnia**, a nie 24.  
-- Aby zatwierdzić wykonanie, należy **„nakleić znaczek”** — klikając na wyznaczone miejsce.  
-  Uwaga! Naklejonego znaczka **nie da się odkleić** — elfy zadbały o mocny klej! ✨  
-- Oprócz zadań ukryta została **specjalna niespodzianka**: projekt promowany we współpracy z [**KajoData**](https://kajodata.pl) — marką, której zaufały tysiące osób uczących się analizy danych.  
-  W ramach kalendarza znajdziesz **ukryty kod rabatowy –15%** na wszystkie kursy i produkty KajoData – świąteczny prezent dla tych, którzy lubią łączyć naukę z odrobiną magii. 🎄  
+- Aby zatwierdzić wykonanie, należy **„nakleić znaczek”** klikając na wyznaczone miejsce.  
+  Uwaga! Naklejonego znaczka **nie da się odkleić**! Elfy zadbały o mocny klej!  
+- Oprócz zadań ukryta została **specjalna niespodzianka**: projekt promowany we współpracy z [**KajoData**](https://kajodata.com) - marką, której zaufały tysiące osób uczących się analizy danych. Na jednej z pocztówek znajdziesz **ukryty kod rabatowy –15%** na wszystkie produkty KajoData - świąteczny prezent dla tych, którzy lubią łączyć naukę z odrobiną magii. 🎄  
 
 ---
 
