@@ -14,14 +14,18 @@ Nie znajdziesz tu wykresów ani tabel. Zamiast tego czekają na Ciebie **24 świ
 
 ---
 
-## 🎁 Co znajdziesz w środku
+## 📦 Co znajdziesz w środku
 
 - 24 pocztówki/okienka ze świątecznymi zadaniami do wykonania.  
 - Na każde zadanie masz **3 dni** (np. zadanie z 1 grudnia możesz wykonać najpóźniej 3 grudnia; **4 grudnia** okienko zostanie zablokowane).  
 - Tym samym wykonanie ostatniego zadania zablokuje się **27 grudnia**, a nie 24.  
 - Aby zatwierdzić wykonanie, należy **„nakleić znaczek”** klikając na wyznaczone miejsce.  
-  Uwaga! Naklejonego znaczka **nie da się odkleić**! Elfy zadbały o mocny klej!  
-- Oprócz zadań ukryta została **specjalna niespodzianka**: projekt promowany we współpracy z [**KajoData**](https://kajodata.com) - marką, której zaufały tysiące osób uczących się analizy danych. Na jednej z pocztówek znajdziesz **ukryty kod rabatowy -15%** na wszystkie produkty KajoData - świąteczny prezent dla tych, którzy lubią łączyć naukę z odrobiną magii. 🎄  
+  Uwaga! Naklejonego znaczka **nie da się odkleić**! Elfy zadbały o mocny klej!
+  
+> ## 🎁 Specjalna niespodzianka
+> Projekt powstał we współpracy z **[KajoData](https://kajodata.com)** - marką, której zaufały tysiące osób uczących się analizy danych.  
+> Na jednej z pocztówek znajdziesz **ukryty kod rabatowy –15%** na wszystkie produkty KajoData.  
+> Świąteczny prezent dla tych, którzy lubią łączyć naukę z odrobiną magii. 
 
 <p align="center">
   <img src="img/screen.png"
