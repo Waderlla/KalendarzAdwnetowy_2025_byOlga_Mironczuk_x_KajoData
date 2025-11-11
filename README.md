@@ -24,7 +24,7 @@ Nie znajdziesz tu wykresów ani tabel. Zamiast tego czekają na Ciebie **24 świ
   
 > ## 🎁 Specjalna niespodzianka
 > Projekt powstał we współpracy z **[KajoData](https://kajodata.com)** - marką, której zaufały tysiące osób uczących się analizy danych.  
-> Na jednej z pocztówek znajdziesz **ukryty kod rabatowy –15%** na wszystkie produkty KajoData.  
+> Na jednej z pocztówek znajdziesz **ukryty kod rabatowy -15%** na wszystkie produkty KajoData.  
 > Świąteczny prezent dla tych, którzy lubią łączyć naukę z odrobiną magii. 
 
 <p align="center">
