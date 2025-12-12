@@ -102,7 +102,7 @@ Z serdecznymi pozdrowieniami,
 
 ## 📽️ Dodatkowe materiały
 
-Pełny opis techniczny projektu oraz krótki film o kulisach jego powstawania pojawią się **27 grudnia 2025 r.**. Nie publikuję ich wcześniej, żeby nie zdradzać zawartości i nie odbierać radości odkrywania każdego okienka. 🎁  
+Pełny opis techniczny projektu i kulisy jego powstawania pojawią się **27 grudnia 2025 r.**. Nie publikuję ich wcześniej, żeby nie zdradzać zawartości i nie odbierać radości odkrywania każdego okienka. 🎁  
 
 ---
 
