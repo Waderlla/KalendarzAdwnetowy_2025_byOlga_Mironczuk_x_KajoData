@@ -7,7 +7,7 @@ Grudzień to dla mnie wyjątkowy czas. Już początkiem miesiąca nasze mieszkan
 Nie znajdziesz tu wykresów ani tabel. Zamiast tego czekają na Ciebie **24 świąteczne okienka z zadaniami**, które pomogą Ci wejść w grudniowy nastrój. 🎅  
 
 <p align="center">
-  <img src="img/screen1.png"
+  <img src="../img/screen1.png"
        alt="Pierwsza strona projektu"
        width="800">
 </p>
@@ -28,7 +28,7 @@ Nie znajdziesz tu wykresów ani tabel. Zamiast tego czekają na Ciebie **24 świ
 > Świąteczny prezent dla tych, którzy lubią łączyć naukę z odrobiną magii. 
 
 <p align="center">
-  <img src="img/screen.png"
+  <img src="../img/screen.png"
        alt="Druga strona projektu"
        width="800">
 </p>
@@ -37,7 +37,7 @@ Nie znajdziesz tu wykresów ani tabel. Zamiast tego czekają na Ciebie **24 świ
 
 ## ⬇️ Pobierz kalendarz
 
-👉 [**Kliknij tutaj, aby pobrać plik KalendarzAdwnetowy_2025_byOlga_Mironczuk_x_KajoData**](https://github.com/Waderlla/KalendarzAdwnetowy_2025_byOlga_x_KajoData/raw/refs/heads/main/KalendarzAdwnetowy_2025_byOlga_Mironczuk_x_KajoData.xlsm?download=)
+👉 [**Kliknij tutaj, aby pobrać plik KalendarzAdwnetowy_2025_by_Olga_Mironczuk_x_KajoData**](https://github.com/Waderlla/KalendarzAdwnetowy_2025_by_Olga_x_KajoData/raw/refs/heads/main/KalendarzAdwnetowy_2025_by_Olga_Mironczuk_x_KajoData.xlsm?download=)
 
 *(plik `.xlsm` - działa w Microsoft Excel, wersja desktopowa)*  
 🔒 To **jedyny oficjalny i bezpieczny plik kalendarza**.  
