@@ -6,7 +6,7 @@ Projekt powstał z myślą o zabawie i interakcji użytkownika w okresie świąt
 
 ---
 
-## 🎯 Cel projektu
+## Cel projektu
 
 - stworzenie interaktywnego kalendarza adwentowego działającego offline  
 - zaprojektowanie logiki reagującej na datę, postęp i działania użytkownika  
@@ -18,7 +18,7 @@ Po zakończeniu kalendarza repozytorium zostało uzupełnione o pełną dokument
 
 ---
 
-## 🧠 Jak to działa (w skrócie)
+## Jak to działa (w skrócie)
 
 - użytkownik otwiera kolejne dni przez kliknięcie elementów interfejsu  
 - dostępność okienek zależy od daty i zdefiniowanych reguł  
@@ -28,19 +28,38 @@ Po zakończeniu kalendarza repozytorium zostało uzupełnione o pełną dokument
 
 ---
 
-## 🧩 Struktura projektu
+## Struktura projektu
 
 ```
-code/vba/
-docs/
-img/
+├── code/vba/
+│   ├─ RUNNER.bas
+│   ├─ OdwrocKarte.bas
+│   ├─ NaklejanieZnaczka.bas
+│   ├─ ZnakX.bas
+│   ├─ ObrazMikolaja.bas
+│   ├─ StartFinalu.bas
+│   ├─ OknoKoncowe.bas
+│   └─ ThisWorkbook.cls
+│
+├── docs/
+│   ├─ README_no_spoilers.md
+│   ├─ architecture.md
+│   └─ modules.md
+│   
+├── img/
+│   ├─ screen.png
+│   ├─ screen1.png
+│   └─ wlasciwosci.png
+│   
+└── README.md
+
 ```
 
 Szczegółowy opis architektury i modułów znajduje się w folderze `docs`.
 
 ---
 
-## 📄 Dokumentacja techniczna
+## Dokumentacja techniczna
 
 - `docs/architecture.md` – architektura i przepływ logiki  
 - `docs/modules.md` – opis modułów VBA  
@@ -48,14 +67,14 @@ Szczegółowy opis architektury i modułów znajduje się w folderze `docs`.
 
 ---
 
-## 🗂️ Stan aplikacji
+## Stan aplikacji
 
 Trwały stan aplikacji przechowywany jest w arkuszu kontrolnym **„tajne zapiski elfów”**.  
 Arkusz ten był ukryty i niedostępny dla użytkownika końcowego w trakcie działania kalendarza i pełni wyłącznie funkcję techniczną.
 
 ---
 
-## 🤖 Rola AI w projekcie
+## Rola AI w projekcie
 
 W projekcie korzystałam z AI jako narzędzia wspierającego pracę koncepcyjną i iteracyjną nad rozwiązaniami w VBA.
 
@@ -67,15 +86,7 @@ Po mojej stronie było:
 
 ---
 
-## ▶️ Jak uruchomić
-
-1. Pobierz plik `.xlsm` z repozytorium (branch z wersją końcową).  
-2. Otwórz plik w Excelu i włącz makra.  
-3. Korzystaj z aplikacji poprzez interfejs graficzny.
-
----
-
-## ℹ️ Informacje końcowe
+## Informacje końcowe
 
 Projekt ma charakter autorski i portfolio.  
 Repozytorium prezentuje zarówno efekt końcowy, jak i sposób myślenia projektowego.
