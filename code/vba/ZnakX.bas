@@ -2,18 +2,18 @@ Attribute VB_Name = "ZnakX"
 Option Explicit
 
 '================= KONFIG =================
-Private Const TBL_SHEET As String = "tajne zapiski elfów"   ' arkusz z tabel¹
+Private Const TBL_SHEET As String = "tajne zapiski elfÃ³w"   ' arkusz z tabelÄ…
 Private Const CAL_SHEET As String = "kalendarz"             ' arkusz z obrazkami
 
-' Nag³ówki kolumn w tabeli (wiersz 1)
-Private Const HDR_END  As String = "KoncowaData"            ' data koñcowa dla wiersza
+' NagÂ³Ã³wki kolumn w tabeli (wiersz 1)
+Private Const HDR_END  As String = "KoncowaData"            ' data koÅ„cowa dla wiersza
 Private Const HDR_X    As String = "X"                      ' nazwa obrazka x* (np. x7)
-Private Const HDR_CONF As String = "KomorkaPotwierdzenia"   ' komórka potwierdzenia (DONE)
+Private Const HDR_CONF As String = "KomorkaPotwierdzenia"   ' komÃ³rka potwierdzenia (DONE)
 
 '================================================
-' POKA¯ x*, dla których:
+' POKAÅ» x*, dla ktÃ³rych:
 '   KoncowaData < dzisiaj  ORAZ  KomorkaPotwierdzenia <> "DONE"
-' Resztê ukryj.
+' ResztÄ™ ukryj.
 '================================================
 Public Sub ShowX_UpToToday_KeepVisible()
     Dim wsT As Worksheet, wsC As Worksheet
@@ -26,7 +26,7 @@ Public Sub ShowX_UpToToday_KeepVisible()
 
     cEnd = FindHeader(wsT, HDR_END)
     cX = FindHeader(wsT, HDR_X)
-    cConf = FindHeader(wsT, HDR_CONF)        ' mo¿e byæ 0 jeœli kolumny nie ma
+    cConf = FindHeader(wsT, HDR_CONF)        ' moÅ¼e byÄ‡ 0 jeÅ›li kolumny nie ma
     If cEnd = 0 Or cX = 0 Then Exit Sub
 
     lastRow = wsT.Cells(wsT.Rows.Count, cEnd).End(xlUp).Row
@@ -43,7 +43,7 @@ Public Sub ShowX_UpToToday_KeepVisible()
         nm = Trim$(CStr(wsT.Cells(r, cX).Value))
         If Len(nm) > 0 Then
 
-            ' 1) Jeœli DONE -> zawsze ukryj
+            ' 1) JeÅ“li DONE -> zawsze ukryj
             If cConf > 0 Then
                 conf = UCase$(Trim$(CStr(wsT.Cells(r, cConf).Value)))
                 If conf = "DONE" Then
@@ -66,7 +66,7 @@ Public Sub ShowX_UpToToday_KeepVisible()
 NextRow:
     Next r
 
-    ' Prze³¹cz tylko kszta³ty x* na arkuszu kalendarza
+    ' PrzeÅ‚Ä…cz tylko ksztaÅ‚ty x* na arkuszu kalendarza
     Dim shp As Shape
     Application.ScreenUpdating = False
     For Each shp In wsC.Shapes
@@ -81,7 +81,7 @@ NextRow:
     Application.ScreenUpdating = True
 End Sub
 
-'== pomocnicza: numer kolumny po nag³ówku (0, gdy brak)
+'== pomocnicza: numer kolumny po nagÅ‚Ã³wku (0, gdy brak)
 Private Function FindHeader(ByVal ws As Worksheet, ByVal headerText As String) As Long
     Dim c As Range, txt As String, want As String
     want = LCase$(Trim$(headerText))
@@ -96,11 +96,12 @@ Private Function FindHeader(ByVal ws As Worksheet, ByVal headerText As String) A
     FindHeader = 0
 End Function
 
-'== pomocnicza: czy element jest w kolekcji (dok³adne dopasowanie)
+'== pomocnicza: czy element jest w kolekcji (dokÅ‚adne dopasowanie)
 Private Function InColl(col As Collection, ByVal key As String) As Boolean
     Dim i As Long
     For i = 1 To col.Count
         If col(i) = key Then InColl = True: Exit Function
     Next i
 End Function
+
 
