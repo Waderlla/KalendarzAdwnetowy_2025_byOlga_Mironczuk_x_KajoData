@@ -2,7 +2,7 @@
 
 Ten dokument opisuje rolę modułów VBA wyeksportowanych do repozytorium oraz pokazuje, jak łączą się w jedną aplikację.
 
-## Entry points
+## Skąd startuje aplikacja
 
 ### ThisWorkbook.cls
 Rola: automatyczny start aplikacji po otwarciu pliku.  
@@ -11,7 +11,7 @@ Co robi: wywołuje MasterRefresh("Open"), czyli startowy refresh całej logiki i
 
 ---
 
-## Orkiestracja
+## Główna logika sterująca
 
 ### RUNNER.bas
 Rola: centralny runner aplikacji, odpowiedzialny za spójne uruchamianie logiki i synchronizację UI ze stanem.  
