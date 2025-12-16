@@ -30,6 +30,7 @@ Projekt został zaprojektowany tak, aby zachowywał się jak aplikacja stanowa, 
 
 Trwały stan aplikacji przechowywany jest w arkuszu kontrolnym **„tajne zapiski elfów”**.  
 Nazwa arkusza ma charakter fabularny, natomiast technicznie pełni on rolę centralnej tabeli sterującej logiką aplikacji.
+W trakcie działania kalendarza arkusz ten był niewidoczny i niedostępny dla użytkownika końcowego, pełniąc wyłącznie funkcję techniczną.
 
 Arkusz zawiera m.in. następujące informacje:
 - identyfikator dnia / elementu wizualnego
@@ -44,7 +45,3 @@ Arkusz zawiera m.in. następujące informacje:
 
 ### Akcje użytkownika
 Kliknięcia w elementy UI wyzwalają makra przypisane do obiektów graficznych. VBA weryfikuje datę, zapisany stan oraz reguły czasowe.
-
-## Uwagi
-
-Dokumentacja ma charakter edukacyjny i portfolio.
