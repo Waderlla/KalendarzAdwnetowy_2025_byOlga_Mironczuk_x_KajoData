@@ -2,13 +2,13 @@ Attribute VB_Name = "OdwrocKarte"
 Option Explicit
 
 '=== KONFIG ===
-Private Const TBL_SHEET As String = "tajne zapiski elfów"   ' tabela steruj¹ca
-Private Const CAL_SHEET As String = "kalendarz"             ' arkusz z kszta³tami
+Private Const TBL_SHEET As String = "tajne zapiski elfÃ³w"   ' tabela sterujÄ…ca
+Private Const CAL_SHEET As String = "kalendarz"             ' arkusz z ksztaÅ‚tami
 
-Private Const HDR_START As String = "PoczatkowaData"        ' data startu (dzieñ odkrycia)
+Private Const HDR_START As String = "PoczatkowaData"        ' data startu (dzieÅ„ odkrycia)
 Private Const HDR_BACK  As String = "TylKarty"              ' nazwa obrazka tk* (np. tk7)
 
-' Ukryj tk*, dla których PoczatkowaData <= dzisiaj. Pozosta³e poka¿.
+' Ukryj tk*, dla ktÃ³rych PoczatkowaData <= dzisiaj. PozostaÅ‚e pokaÅ¼.
 Public Sub OdwrocKarte()
     Dim wsT As Worksheet, wsC As Worksheet
     Dim cStart As Long, cBack As Long, lastRow As Long, r As Long
@@ -36,15 +36,15 @@ Public Sub OdwrocKarte()
             If IsDate(v) Then
                 d = DateValue(CDate(v))
                 If d <= today Then
-                    toHide.Add nm     ' dzieñ nadszed³ -> ukryj ty³
+                    toHide.Add nm     ' dzieÅ„ nadszedÅ‚ -> ukryj tyÅ‚
                 Else
-                    toShow.Add nm     ' jeszcze przed startem -> poka¿ ty³
+                    toShow.Add nm     ' jeszcze przed startem -> pokaÅ¼ tyÅ‚
                 End If
             End If
         End If
     Next r
 
-    ' Prze³¹cz widocznoœæ tylko dla tk*
+    ' PrzeÅ‚Ä…cz widocznoÅ›Ä‡ tylko dla tk*
     Dim shp As Shape
     Dim prevUpd As Boolean: prevUpd = Application.ScreenUpdating
     Application.ScreenUpdating = False
@@ -83,3 +83,4 @@ Private Function InColl(col As Collection, ByVal key As String) As Boolean
         If col(i) = key Then InColl = True: Exit Function
     Next i
 End Function
+
