@@ -4,6 +4,12 @@ Autorski projekt kalendarza adwentowego w Excelu, zaprojektowany jako mini‑apl
 
 Projekt powstał z myślą o zabawie i interakcji użytkownika w okresie świątecznym, ale od strony technicznej został zbudowany jak spójny system: z trwałym stanem, regułami czasowymi i warstwą logiki oddzieloną od interfejsu.
 
+<p align="center">
+  <img src="img/screen1.png"
+       alt="Pierwsza strona projektu"
+       width="800">
+</p>
+
 ---
 
 ## Cel projektu
@@ -25,6 +31,18 @@ Po zakończeniu kalendarza repozytorium zostało uzupełnione o pełną dokument
 - zatwierdzenie zadania zapisuje trwały stan w tabeli sterującej  
 - interfejs jest dynamicznie aktualizowany przez VBA  
 - całość działa lokalnie, bez połączenia z internetem  
+
+<p align="center">
+  <img src="img/screen.png"
+       alt="Pierwsza strona projektu"
+       width="800">
+</p>
+
+<p align="center">
+  <img src="img/screen2.png"
+       alt="Pierwsza strona projektu"
+       width="800">
+</p>
 
 ---
 
