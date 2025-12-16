@@ -2,30 +2,30 @@ Attribute VB_Name = "StartFinalu"
 Option Explicit
 
 '============== KONFIG STARTERA ==============
-Private Const TBL_SHEET      As String = "tajne zapiski elfÛw"  ' UWAGA: u Ciebie by≥ literÛwka "zaiski"
+Private Const TBL_SHEET      As String = "tajne zapiski elf√≥w"
 Private Const CAL_SHEET      As String = "kalendarz"
 Private Const DEADLINE_CELL  As String = "D28"                  ' data startu pokazywania f*
 '=============================================
 
-' G£”WNE WEJåCIE: URUCHAMIAJ T  PROCEDUR  zamiast UpdateFinalByPercent
+' G≈Å√ìWNE WEJ≈öCIE: URUCHAMIAJ Tƒò PROCEDURƒò zamiast UpdateFinalByPercent
 Public Sub RunFinalWithGate()
     Dim wsTbl As Worksheet, wsCal As Worksheet
     Set wsTbl = ThisWorkbook.Worksheets(TBL_SHEET)
     Set wsCal = ThisWorkbook.Worksheets(CAL_SHEET)
 
-    ' 1) Jeúli dziú < data z D28 õ ukryj wszystkie f* i zakoÒcz
+    ' 1) Je≈õli dzi≈Ñ < data z D28 ‚Ä∫ ukryj wszystkie f* i zako≈Ñcz
     If GateBlocks(wsTbl, wsCal) Then Exit Sub
 
-    ' 2) W przeciwnym wypadku õ odpal TwÛj modu≥ (nie zmieniamy jego treúci)
+    ' 2) W przeciwnym wypadku ‚Ä∫ odpal modu≈Ç
     Call UpdateFinalByPercent
 End Sub
 
-' --- BRAMKA DATY: True = ma blokowaÊ (ukrywa f* i zatrzymuje) ---
+' --- BRAMKA DATY: True = ma blokowa√¶ (ukrywa f* i zatrzymuje) ---
 Private Function GateBlocks(wsTbl As Worksheet, wsCal As Worksheet) As Boolean
     Dim startDt As Date, ok As Boolean
     ok = TryGetDate(wsTbl.Range(DEADLINE_CELL).Value2, startDt)
     If ok Then
-        ' PorÛwnujemy tylko czÍúÊ daty (bez czasu)
+        ' Por√≥wnujemy tylko cz√™≈ì√¶ daty (bez czasu)
         If CLng(Date) < CLng(startDt) Then
             HideAllF wsCal
             GateBlocks = True
@@ -35,7 +35,7 @@ Private Function GateBlocks(wsTbl As Worksheet, wsCal As Worksheet) As Boolean
     GateBlocks = False
 End Function
 
-' --- Ukrywa wszystkie kszta≥ty, ktÛrych nazwa zaczyna siÍ na "f" (takøe w grupach) ---
+' --- Ukrywa wszystkie kszta≈Çty, kt√≥rych nazwa zaczyna siƒô na "f" (tak≈ºe w grupach) ---
 Private Sub HideAllF(wsCal As Worksheet)
     Dim shp As Shape
     Dim prevUpd As Boolean
@@ -58,15 +58,16 @@ ExitHere:
     Application.ScreenUpdating = prevUpd
 End Sub
 
-' --- Bezpieczne pobranie samej daty (obs≥uguje liczby i teksty) ---
+' --- Bezpieczne pobranie samej daty (obs≈Çuguje liczby i teksty) ---
 Private Function TryGetDate(ByVal rawVal As Variant, ByRef outDate As Date) As Boolean
     On Error GoTo Fail
     If IsDate(rawVal) Or IsNumeric(rawVal) Or Len(Trim$(CStr(rawVal))) > 0 Then
         Dim d As Date: d = CDate(rawVal)
-        outDate = DateSerial(Year(d), Month(d), Day(d)) ' sam dzieÒ
+        outDate = DateSerial(Year(d), Month(d), Day(d)) ' sam dzie√±
         TryGetDate = True
         Exit Function
     End If
 Fail:
     TryGetDate = False
 End Function
+
