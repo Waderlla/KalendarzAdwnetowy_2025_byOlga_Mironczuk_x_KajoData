@@ -66,7 +66,7 @@ Pobieranie z innych źródeł może być ryzykowne.
 3. Zaznacz **„Odblokuj”** → **Zastosuj** → **OK**.
 
 <p align="center">
-  <img src="img/wlasciwosci.png"
+  <img src="../img/wlasciwosci.png"
        alt="Okno Właściwości w Windows - pole „Odblokuj”"
        width="400">
 </p>
