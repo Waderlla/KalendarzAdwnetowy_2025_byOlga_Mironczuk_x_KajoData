@@ -1,7 +1,7 @@
 Attribute VB_Name = "RUNNER"
 Option Explicit
 
-' G£”WNY RUNNER ñ tu wywo≥ujesz WSZYSTKIE swoje makra.
+' G≈Å√ìWNY RUNNER ‚Äì tu wywo≈Çujesz WSZYSTKIE swoje makra.
 Public Sub MasterRefresh(Optional ByVal reason As String = "")
     Static busy As Boolean
     If busy Then Exit Sub
@@ -22,3 +22,4 @@ Clean:
     Application.EnableEvents = True
     busy = False
 End Sub
+
